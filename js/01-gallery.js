@@ -30,7 +30,7 @@ const openModal = (e) => {
     modalWindow = basicLightbox.create(`
     <img src="${e.target.src}" width="800" height="600">
 `)
-    
+
     modalWindow.show()
 }
 
